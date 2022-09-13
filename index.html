@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        border: 1px solid #000;
+        display: inline-block;
+      }
+      button {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- button yaratuvchi konstruktor.
+        form elementlari ro'yhati.
+        // width input:number
+        // height input:number
+        // bgcolor input:color
+        // color input:color
+        // fontsize input:number
+        // padding input:number
+        // border-width input:number
+        // border-style select
+        // border-color input:color
+        // fontStyle select
+        // fontWeight select
+        // textContent input:text
+        // position select
+        // top input:number
+        // left input:number
+        // borderRadius input:number
+        // cursor select -->
+
+    <input type="number" class="width" placeholder="width" />
+    <input type="number" class="height" placeholder="height" />
+    <span>Bg color <input type="color" class="bgColor" /></span>
+    <span>Color <input type="color" class="color" /></span>
+    <input type="number" class="fSize" placeholder="font Size" />
+    <input type="number" class="padding" placeholder="padding" />
+    <input type="number" class="bWidth" placeholder="border width" />
+    <span
+      >Border style
+      <select id="bStyle">
+        <option value="solid">solid</option>
+        <option value="dashed">dashed</option>
+        <option value="dotted">dotted</option>
+      </select>
+    </span>
+    <span>Border color <input type="color" class="bColor" /></span>
+    <span
+      >Font style
+      <select id="fStyle">
+        <option value="normal">normal</option>
+        <option value="italic">italic</option>
+        <option value="oblique">oblique</option>
+      </select>
+    </span>
+    <span
+      >Font weight
+      <select id="fWeight">
+        <option value="medium">medium</option>
+        <option value="bold">bold</option>
+        <option value="lighter">lighter</option>
+      </select>
+    </span>
+    <input type="text" class="tContent" placeholder="text content" />
+    <span
+      >Position
+      <select id="position">
+        <option value="static">static</option>
+        <option value="absolute">absolute</option>
+        <option value="fixed">fixed</option>
+        <option value="relative">relative</option>
+      </select>
+    </span>
+    <input type="number" class="pTop" placeholder="position top" />
+    <input type="number" class="pLeft" placeholder="position left" />
+    <input type="number" class="bRadius" placeholder="border radius" />
+    <span
+      >Cursor
+      <select id="cursor">
+        <option value="auto">auto</option>
+        <option value="pointer">pointer</option>
+        <option value="copy">copy</option>
+        <option value="wait">wait</option>
+      </select>
+    </span>
+    <hr />
+
+    <button>Button</button>
+
+    <hr />
+
+    <button class="clear">Clear all</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
