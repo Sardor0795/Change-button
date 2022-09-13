@@ -95,6 +95,7 @@ clear.addEventListener("click", () => {
   pTop.value = "";
   pLeft.value = "";
   bRadius.value = "";
+  button.style = "";
 });
 
 // onClick func
